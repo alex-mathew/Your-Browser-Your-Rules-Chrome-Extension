@@ -1,0 +1,26 @@
+{
+   "background": {
+      "scripts": [
+        "bg.js",
+        "clipboard-polyfill.js"
+    ]
+   },
+   "browser_action": {
+      "default_icon": "default.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [
+    {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["contentscript.js"]
+    }
+   ],
+   "chrome_url_overrides": {
+    },
+   "permissions" : ["storage","activeTab","tabs","https://*/*","http://*/*","contextMenus","<all_urls>"],
+   "content_security_policy": "script-src 'self' https://ajax.googleapis.com https://code.jquery.com/jquery-1.9.1.js https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.2.24/jquery.autocomplete.min.js ;  object-src 'self'",
+   "description": "Customize the web page being displayed in your browser just for you",
+   "manifest_version": 2,
+   "name": "Your Browser, Your Rules",
+   "version": "1.0"
+}
