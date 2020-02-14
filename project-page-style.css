@@ -1,0 +1,112 @@
+/** Global Styles **/
+* {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+section {
+    position: fixed;
+    width: 100%; 
+    height: 100%;
+    top: 0; 
+    left: 0;
+    overflow: hidden;
+}
+
+/** Page Styles **/
+#page1 { background-color:#222022;
+         color: #efedef;     
+}
+
+#page2 { background-color:#222022;
+         color:  #efedef;
+}
+
+#page3 {  background-color: #222022;
+         color:  #efedef;     
+}
+
+#page4 {  background-color:#222022;
+    color:  #efedef;
+}
+
+.fullscreen {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.fullscreen h1 {
+    padding: 0;
+    font-size: 3em;
+    color: #efedef;
+    top: 0;
+    left: 43%;
+}
+
+
+/** Arrow Styles **/
+.next-page {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding-top: 5px;
+    text-align: center;
+    /*border: 3px solid #e01f32;*/
+    position: absolute;
+    left: 45%;
+    cursor: pointer;
+    font-size: 50px;
+    bottom: 5px;     
+}
+
+.next-page:hover {
+    color:#6ead3a;
+}
+  
+  @font-face {
+    font-family: 'PW Cactus';
+    src: URL('/fonts/PWCactus.ttf');
+  }
+
+h1 {
+    font-family: "Times New Roman";
+    font-size: 300%;
+ }
+ 
+ body {
+    background: #fff;
+    font: normal 13px/1.5 "Helvetica", sans-serif;
+    color:darkgrey;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font: normal 15px/1.0 "Helvetica", sans-serif;
+    color:darkgrey;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    margin-left: 225px;
+}
+
+
